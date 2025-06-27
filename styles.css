@@ -22,13 +22,18 @@
     --dark: var(--text);
 }
 
+@font-face{
+    src: url("Nights.otf");
+    font-family: "Nights";
+}
+
 
 body, html {
     margin: 0;
     padding: 10px;
     background: var(--background);
     color: var(--text);
-    font-family: var(--font);
+    font-family: Nights;
 }
 
 img {
